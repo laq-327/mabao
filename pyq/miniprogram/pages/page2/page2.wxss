@@ -1,0 +1,9 @@
+/* pages/page2/page2.wxss */
+.b{
+  display:flex;
+  text-align:justify;
+  font-size:large;
+  font-family:cursive;
+  margin-left:20px;
+  margin-right:20px;
+  }

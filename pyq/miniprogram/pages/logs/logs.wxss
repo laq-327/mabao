@@ -1,0 +1,46 @@
+.log-list {
+  display: flex;
+  flex-direction: column;
+  padding: 40rpx;
+}
+.log-item {
+  margin: 10rpx;
+}
+.mylogin {
+  height:400rpx;
+  display:flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+}
+.mylogin image{
+  height: 200rpx;
+  width:200rpx;
+  border-radius: 50%;
+}
+.mylogin text{
+  color:aliceblue;
+}
+.mybaby{
+  height: 200rpx;
+  margin-top: 100rpx;
+}
+.pengouquan{
+  height: 200rpx;
+  margin-top: 400rpx;
+  margin-bottom: 400rpx;
+  font-size: 200rpx;
+}
+.chakan{
+  color: plum;
+}
+.beijingtu{
+  background-color: peachpuff;
+  height: 1500rpx;
+}
+
+.ziti{
+  font-size: 50rpx;
+}
+
+

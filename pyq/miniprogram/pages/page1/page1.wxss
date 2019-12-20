@@ -1,0 +1,14 @@
+/* pages/page1/page1.wxss */
+.bang{
+display:flex;
+  text-align:justify;
+  font-size:large;
+  font-family:cursive;
+  margin-left:20px;
+  margin-right:20px;  }
+
+.bang1{
+  display: flex;
+  justify-content: center;
+  font-family:cursive;
+}

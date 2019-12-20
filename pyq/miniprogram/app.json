@@ -1,0 +1,49 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/fabu/fabu",
+    "pages/test/test",
+    "pages/pengyouquan/pengyouquan",
+    "pages/logs/logs",
+    "pages/jiance/jiance",
+    "pages/page1/page1",
+    "pages/page2/page2",
+    "pages/page3/page3",
+    "pages/page4/page4",
+    "pages/pic/pic"
+  ],
+  "window": {
+    "backgroundColor": "#FFB6C1",
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#FFB6C1",
+    "navigationBarTitleText": "养育之道",
+    "navigationBarTextStyle": "black"
+  },
+  "sitemapLocation": "sitemap.json",
+  "style": "v2",
+  "tabBar": {
+    "color": "#333",
+    "selectedColor": "#fff",
+    "backgroundColor": "#fff",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "text": "信息",
+        "iconPath": "images/tubiaox3.jpg",
+        "selectedIconPath": "images/xuanz1.jpg"
+      },
+      {
+        "pagePath": "pages/logs/logs",
+        "text": "个人",
+        "iconPath": "images/tubiaox2.jpg",
+        "selectedIconPath": "images/xuanz3.jpg"
+      },
+      {
+        "pagePath": "pages/pengyouquan/pengyouquan",
+        "text": "朋友圈",
+        "iconPath": "images/tubiaox1.jpg",
+        "selectedIconPath": "images/xuanz2.jpg"
+      }
+    ]
+  }
+}

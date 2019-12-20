@@ -1,0 +1,19 @@
+<view class="beijingtu">
+<view class="mylogin">
+<image src="{{src}}"></image>
+<text>{{nickname}}</text>
+</view>
+
+<button type="default" plain open-type="getUserInfo" bindgetuserinfo="handleGetUserInfo">{{den}}</button>
+<!-- 绑定获取用户信息的函数 -->
+<view class="ziti">
+<navigator url="/pages/jiance/jiance" hover-class="chakan" class="mybaby">宝宝状况</navigator>
+<!-- 点击可切换到查看宝宝尿不湿湿度的界面 -->
+<navigator url="/pages/fabu/fabu" hover-class="chakan" class="pengyouquan">分享心情</navigator>
+<!-- 点击可以切换到发布朋友圈的界面 -->
+</view>
+
+
+
+
+</view>

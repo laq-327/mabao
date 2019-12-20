@@ -1,0 +1,46 @@
+<!--幻灯片列表-->
+<swiper indicator-dots="true" autoplay="true" interval="5000" duration="500">
+<!-- 设置自动播放以及图片自动变化的时间间隔等 -->
+<view wx:for="{{swiperImg}}" wx:key="swiper{{index}}">
+<swiper-item>
+<image src="{{item.src}}"></image>
+<!-- 绑定要播放的图片 -->
+</swiper-item>
+</view>
+
+</swiper>
+<!--新闻列表-->
+<view class="color">
+<view class="newsList">
+<navigator class="news-item" wx:for="{{newslist1}}" wx:key="{{item.id}}" url="/pages/page3/page3">
+<!-- 绑定新闻内容和新闻在哪一界面 -->
+<image src="{{item.poster}}"></image>
+<!-- 绑定新闻显示在首页的图片 -->
+<text>{{item.title}}---{{item.add_date}}</text>
+<!-- 显示在首页显示的内容 -->
+</navigator>
+</view>
+<!-- 以下内容与上面一样 -->
+<view class="newsList">
+<navigator class="news-item" wx:for="{{newslist2}}" wx:key="{{item.id}}" url="/pages/page1/page1">
+<image src="{{item.poster}}"></image>
+<text>{{item.title}}---{{item.add_date}}</text>
+</navigator>
+</view>
+
+
+<view class="newsList">
+<navigator class="news-item" wx:for="{{newslist3}}" wx:key="{{item.id}}" url="/pages/page2/page2">
+<image src="{{item.poster}}"></image>
+<text>{{item.title}}---{{item.add_date}}</text>
+</navigator>
+</view>
+
+
+<view class="newsList">
+<navigator class="news-item" wx:for="{{newslist4}}" wx:key="{{item.id}}" url="/pages/page4/page4">
+<image src="{{item.poster}}"></image>
+<text>{{item.title}}---{{item.add_date}}</text>
+</navigator>
+</view>
+</view>
